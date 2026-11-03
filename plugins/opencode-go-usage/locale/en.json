@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "OpenCode Go usage",
+    "description": "Shows the 5-hour, weekly, and monthly OpenCode Go allowance below the composer, with the reset time of each window."
+  }
+}

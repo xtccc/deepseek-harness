@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "OpenCode Go 用量",
+    "description": "在输入框下方显示 OpenCode Go 的 5 小时、每周与每月用量，以及每个窗口的重置时间。"
+  }
+}

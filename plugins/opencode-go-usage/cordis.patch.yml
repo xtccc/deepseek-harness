@@ -1,0 +1,11 @@
+# opencode-go-usage bundle patch: one Host row serving the usage summary to
+# this package's Client half. Configure the row in the profile patch when a
+# deployment needs a different credential reference or cache lifetime:
+#
+#   - id: opencode-go-usage
+#     config:
+#       credentialRef: OPENCODE_GO_USAGE_API_KEY
+#       refreshIntervalMs: 60000
+- insert:
+    - id: opencode-go-usage
+      name: '@local/opencode-go-usage'
