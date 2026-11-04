@@ -1,0 +1,11 @@
+{
+  "name": "dsh-notification-gotify",
+  "description": "Gotify push notifications when a DeepSeek Harness task completes, fails, is interrupted, or asks a question",
+  "version": "0.3.0",
+  "entry": {
+    "name": "dsh-notification-gotify",
+    "inject": [
+      "sessions"
+    ]
+  }
+}

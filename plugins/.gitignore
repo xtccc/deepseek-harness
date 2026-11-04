@@ -1,0 +1,2 @@
+# Profile-linked plugins ship their built host bundle; lib/ is the package entry.
+!*/lib/

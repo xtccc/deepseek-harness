@@ -1,0 +1,13 @@
+# dsh-notification-gotify bundle patch: mount the host plugin under its package name,
+# resolved through the profile's node_modules.
+#
+# Configure Gotify on the plugin row in the profile's cordis.yml:
+#
+#   - id: dsh-notification-gotify
+#     name: dsh-notification-gotify
+#     config:
+#       baseUrl: https://gotify.example.com
+#       appToken: <application token>
+- insert:
+    - id: dsh-notification-gotify
+      name: dsh-notification-gotify
